@@ -1,0 +1,130 @@
+1.	다음 문장의 반환 값을 쓰시오. 
+①	len('파이썬') 
+②	len('자바'*3)
+③	len('Kotlin')
+④	len('컴퓨팅사고력')
+⑤	'python 언어'[7]
+⑥	('python' + "언어")[1]
+⑦	'파이썬'[0]
+⑧	'귀도 반 로섬'[5]
+ 
+
+정답
+3
+
+6
+
+6
+
+6
+
+'언'
+
+'y'
+
+'파'
+
+'로'
+
+2.	다음 문자열 슬라이싱의 결과를 쓰시오.
+①	'dictionary'[0:4]
+②	'dictionary'[1:5]
+③	'dictionary'[2:6]
+④	'dictionary'[3:10]
+ 
+
+정답
+'dict'
+
+'icti'
+
+'ctio'
+
+'tionary'
+
+3.	다음 문자열 슬라이싱의 결과를 쓰시오.
+①	'python'[:6]
+②	'python'[1:]
+③	'python'[-6:]
+ 
+
+정답
+'python'
+
+'ython'
+
+'python'
+
+4.다음 부분 문자열 간격인 step이 있는 문자열 슬라이싱의 결과를 쓰시오. 
+①	'java python'[::2]
+②	'java python'[::-1]
+ 
+
+정답
+'jv yhn'
+
+'nohtyp avaj'
+
+5.다음 함수 min()과 max()의 반환 값을 쓰시오.   
+①	min(3, 5, 7)
+②	min('7659')
+③	min('abcd')
+④	max(3.45, 5, 28.9)
+⑤	max('a', 'b', 'c')
+
+정답
+3
+
+'5'
+
+'a'
+
+28.9
+
+'c'
+
+6.다음 여러 문자열 메소드의 반환 값을 쓰시오.  
+ 
+①	'python'.replace('y', 'i')
+②	'palindrome'.count('pa')
+③	'-'.join('abc')
+④	'palindrome'.find('lind')
+⑤	'palindrome'.index('d')
+⑥	'palindrome'.rindex('d')
+⑨	'제목'.center(20, '=')
+⑪	' id'.lstrip()
+⑫	' pwd '.strip()
+
+정답
+'pithon'
+
+1
+
+'a-b-c'
+
+2
+
+5
+
+5
+
+'=========제목========='
+
+'id'
+
+'pwd'
+
+7.다음 format() 메소드의 반환 값을 쓰시오. 
+①	'{} {} {}'.format(1, 2, 3)
+②	'{1} {0} {2}'.format(1, 2, 3)
+③	'{2} {1} {0}'.format(1, 2, 3)
+④	'{1} {0} {0}'.format(10, 20)
+
+정답
+'1 2 3'
+
+'2 1 3'
+
+'3 2 1'
+
+'20 10 10'
